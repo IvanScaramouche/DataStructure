@@ -19,10 +19,10 @@ namespace Stack_ {
             Console.WriteLine();
 
             var header = stack.Peek();
-            Console.WriteLine($"Верхушка стека: {header}.");
+            Console.WriteLine($"=> Верхушка стека: {header}.");
             Console.WriteLine();
 
-            Console.WriteLine("Убираем верхушку стека.");
+            Console.WriteLine("=> Убираем верхушку стека.");
             header = stack.Pop();
             foreach (var node in stack) {
                 Console.WriteLine(node);
